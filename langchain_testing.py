@@ -5,7 +5,7 @@ import numpy as np
 import re
 from dotenv import load_dotenv
 
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_together import Together
 
 load_dotenv()
@@ -87,6 +87,13 @@ Assistant:"""
 
 # 🔍 Try it
 if __name__ == "__main__":
-    question = input("Ask a question about the PDF: ")
-    answer = ask_question(question)
-    print("\n🧠 LLM Answer:\n", answer)
+    print("📄 Ask questions about the PDF document. Type 'exit' or 'quit' to end the session.\n")
+    while True:
+        question = input("❓ Your question: ").strip()
+        if question.lower() in ("exit", "quit"):
+            print("👋 Session ended.")
+            break
+        if not question:
+            continue  # Skip empty input
+        answer = ask_question(question)
+        print("\n🧠 LLM Answer:\n", answer, "\n")

@@ -56,8 +56,8 @@ def main():
             # You could pass weather as context if needed
             response = query_llm(user_input)
             print("Assistant:", response)
-            engine.say(response)
-            engine.runAndWait()
+            #engine.say(response)
+            #engine.runAndWait()
 
 if __name__ == "__main__":
     main()

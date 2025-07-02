@@ -2,17 +2,10 @@ import requests
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 from datetime import datetime
+import statistics
 
 # Get weather XML from Met Éireann
-def get_met_weather(location: str):
-    coords = {
-        "claremorris": (53.7236, -9.0045),
-        "dublin": (53.3498, -6.2603),
-        "galway": (53.2707, -9.0568),
-    }
-
-    loc_key = location.lower().split(",")[0].strip()
-    lat, lon = coords.get(loc_key, (53.3498, -6.2603))  # Default to Dublin
+def get_met_weather(lat: float, lon: float) -> str:
 
     url = f"http://openaccess.pf.api.met.ie/metno-wdb2ts/locationforecast?lat={lat};long={lon}"
     response = requests.get(url)
@@ -67,6 +60,56 @@ def summarize_forecast_data(forecast_data: list):
         summary += f"{time_str}: {temperature}°C, {cloudiness}% cloud, {precipitation}mm rain\n"
 
     return summary
+
+def group_by_day(forecast_data):
+    grouped = defaultdict(list)
+    for entry in forecast_data:
+        try:
+            dt = datetime.fromisoformat(entry["from"].replace("Z", "+00:00"))
+            day = dt.strftime("%A")
+            grouped[day].append((dt, entry))
+        except Exception:
+            continue
+    return grouped
+
+def summarize_forecast_data_rich(forecast_data: list) -> str:
+    grouped = defaultdict(list)
+
+    # Group entries by day
+    for entry in forecast_data:
+        try:
+            dt = datetime.fromisoformat(entry["from"].replace("Z", "+00:00"))
+            day = dt.strftime("%A")
+        except Exception:
+            continue  # Skip malformed entries
+
+        grouped[day].append(entry)
+
+    # Build summary
+    summary = "Structured weather forecast by day:\n"
+
+    for day, entries in grouped.items():
+        try:
+            temps = [float(e.get("temperature", 0)) for e in entries]
+            rain = [float(e.get("precipitation", 0)) for e in entries]
+            clouds = [float(e.get("cloudiness", 0)) for e in entries]
+            wind_speeds = [float(e.get("wind_speed", 0)) for e in entries]
+            wind_dirs = [e.get("wind_direction", "N/A") for e in entries if e.get("wind_direction")]
+
+            summary += f"\n{day}:\n"
+            summary += f"Temp: {min(temps):.1f}°C to {max(temps):.1f}°C\n"
+            summary += f"Total Rain: {sum(rain):.1f}mm\n"
+            summary += f"Avg Cloud Cover: {statistics.mean(clouds):.1f}%\n"
+            summary += f"Avg Wind: {statistics.mean(wind_speeds):.1f} m/s\n"
+
+            if wind_dirs:
+                common_dir = max(set(wind_dirs), key=wind_dirs.count)
+                summary += f"Most common wind direction: {common_dir}\n"
+
+        except Exception as e:
+            summary += f"(Error summarizing {day}: {e})\n"
+
+    return summary.strip()
 
 # Optional test/debug block
 if __name__ == "__main__":

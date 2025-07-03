@@ -1,0 +1,6839 @@
+<?xml version="1.0" ?>
+<weatherdata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.met.ie/Open_Data/weatherapi-0.4.xsd" created="2025-07-01T15:10:43Z">
+  
+   
+  <meta>
+    
+      
+    <model name="harmonie" termin="2025-07-01T06:00:00Z" runended="2025-07-01T09:22:32Z" nextrun="2025-07-01T16:00:00Z" from="2025-07-01T16:00:00Z" to="2025-07-03T12:00:00Z"/>
+    
+      
+    <model name="ec_n1280_1hr" termin="2025-07-01T00:00:00Z" runended="2025-07-01T09:22:32Z" nextrun="2025-07-01T18:00:00Z" from="2025-07-03T13:00:00Z" to="2025-07-04T18:00:00Z"/>
+    
+      
+    <model name="ec_n1280_3hr" termin="2025-07-01T00:00:00Z" runended="2025-07-01T09:22:32Z" nextrun="2025-07-01T18:00:00Z" from="2025-07-04T21:00:00Z" to="2025-07-07T00:00:00Z"/>
+    
+      
+    <model name="ec_n1280_6hr" termin="2025-07-01T00:00:00Z" runended="2025-07-01T09:22:32Z" nextrun="2025-07-01T18:00:00Z" from="2025-07-07T06:00:00Z" to="2025-07-11T00:00:00Z"/>
+    
+      
+  </meta>
+  
+   
+  <product class="pointData">
+    
+      
+    <time datatype="forecast" from="2025-07-01T16:00:00Z" to="2025-07-01T16:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.2"/>
+        
+            
+        <windDirection id="dd" deg="300.6" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="2.1" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="4.9"/>
+        
+            
+        <globalRadiation value="230.9" unit="W/m^2"/>
+        
+            
+        <humidity value="61.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1018.6"/>
+        
+            
+        <cloudiness id="NN" percent="100.0"/>
+        
+            
+        <lowClouds id="LOW" percent="100.0"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="36.9"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T15:00:00Z" to="2025-07-01T16:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="3.9"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T17:00:00Z" to="2025-07-01T17:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.8"/>
+        
+            
+        <windDirection id="dd" deg="296.8" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="2.8" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="5.2"/>
+        
+            
+        <globalRadiation value="200.2" unit="W/m^2"/>
+        
+            
+        <humidity value="65.5" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1018.3"/>
+        
+            
+        <cloudiness id="NN" percent="94.4"/>
+        
+            
+        <lowClouds id="LOW" percent="94.3"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="55.7"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T16:00:00Z" to="2025-07-01T17:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T18:00:00Z" to="2025-07-01T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.5"/>
+        
+            
+        <windDirection id="dd" deg="290.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="2.2" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="5.3"/>
+        
+            
+        <globalRadiation value="138.8" unit="W/m^2"/>
+        
+            
+        <humidity value="67.0" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1018.1"/>
+        
+            
+        <cloudiness id="NN" percent="90.0"/>
+        
+            
+        <lowClouds id="LOW" percent="90.0"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="33.9"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T17:00:00Z" to="2025-07-01T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T19:00:00Z" to="2025-07-01T19:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.7"/>
+        
+            
+        <windDirection id="dd" deg="283.6" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="2.9" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="5.4"/>
+        
+            
+        <globalRadiation value="94.4" unit="W/m^2"/>
+        
+            
+        <humidity value="69.5" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1018.4"/>
+        
+            
+        <cloudiness id="NN" percent="100.0"/>
+        
+            
+        <lowClouds id="LOW" percent="100.0"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="40.6"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T18:00:00Z" to="2025-07-01T19:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T20:00:00Z" to="2025-07-01T20:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.5"/>
+        
+            
+        <windDirection id="dd" deg="267.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="2.6" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="5.4"/>
+        
+            
+        <globalRadiation value="37.6" unit="W/m^2"/>
+        
+            
+        <humidity value="71.0" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1018.7"/>
+        
+            
+        <cloudiness id="NN" percent="100.0"/>
+        
+            
+        <lowClouds id="LOW" percent="99.9"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="50.6"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T19:00:00Z" to="2025-07-01T20:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.1"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T21:00:00Z" to="2025-07-01T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.1"/>
+        
+            
+        <windDirection id="dd" deg="259.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.1" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="5.3"/>
+        
+            
+        <globalRadiation value="7.3" unit="W/m^2"/>
+        
+            
+        <humidity value="71.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1019.0"/>
+        
+            
+        <cloudiness id="NN" percent="92.2"/>
+        
+            
+        <lowClouds id="LOW" percent="92.1"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="22.9"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T20:00:00Z" to="2025-07-01T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="4.3"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T22:00:00Z" to="2025-07-01T22:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.1"/>
+        
+            
+        <windDirection id="dd" deg="260.7" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.4" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="4.9"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="71.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1019.3"/>
+        
+            
+        <cloudiness id="NN" percent="97.1"/>
+        
+            
+        <lowClouds id="LOW" percent="97.0"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="62.0"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T21:00:00Z" to="2025-07-01T22:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="6.3"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T23:00:00Z" to="2025-07-01T23:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.9"/>
+        
+            
+        <windDirection id="dd" deg="268.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.5" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="4.8"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="70.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1019.7"/>
+        
+            
+        <cloudiness id="NN" percent="100.0"/>
+        
+            
+        <lowClouds id="LOW" percent="99.6"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="99.3"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T22:00:00Z" to="2025-07-01T23:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="5.4"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T00:00:00Z" to="2025-07-02T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.7"/>
+        
+            
+        <windDirection id="dd" deg="289.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="2.3" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="4.9"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="69.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1019.8"/>
+        
+            
+        <cloudiness id="NN" percent="91.1"/>
+        
+            
+        <lowClouds id="LOW" percent="82.0"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="86.9"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-01T23:00:00Z" to="2025-07-02T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="6.7"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T01:00:00Z" to="2025-07-02T01:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.8"/>
+        
+            
+        <windDirection id="dd" deg="59.0" name="NE"/>
+        
+            
+        <windSpeed id="ff" mps="2.7" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="4.8"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="74.3" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1020.1"/>
+        
+            
+        <cloudiness id="NN" percent="98.7"/>
+        
+            
+        <lowClouds id="LOW" percent="96.4"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="63.8"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T00:00:00Z" to="2025-07-02T01:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="10.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T02:00:00Z" to="2025-07-02T02:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.4"/>
+        
+            
+        <windDirection id="dd" deg="30.4" name="NE"/>
+        
+            
+        <windSpeed id="ff" mps="1.5" beaufort="1" name="Light air"/>
+        
+            
+        <windGust id="ff_gust" mps="5.0"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="77.3" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1020.2"/>
+        
+            
+        <cloudiness id="NN" percent="100.0"/>
+        
+            
+        <lowClouds id="LOW" percent="98.0"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="92.2"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.6"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T01:00:00Z" to="2025-07-02T02:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="6.9"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T03:00:00Z" to="2025-07-02T03:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="12.4"/>
+        
+            
+        <windDirection id="dd" deg="307.3" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="1.8" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="4.6"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="73.1" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1020.4"/>
+        
+            
+        <cloudiness id="NN" percent="100.0"/>
+        
+            
+        <lowClouds id="LOW" percent="99.2"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="86.9"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T02:00:00Z" to="2025-07-02T03:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="4.5"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T04:00:00Z" to="2025-07-02T04:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="12.1"/>
+        
+            
+        <windDirection id="dd" deg="301.8" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="2.2" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="4.6"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="73.0" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1020.8"/>
+        
+            
+        <cloudiness id="NN" percent="100.0"/>
+        
+            
+        <lowClouds id="LOW" percent="100.0"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="17.7"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T03:00:00Z" to="2025-07-02T04:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.4"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T05:00:00Z" to="2025-07-02T05:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="11.8"/>
+        
+            
+        <windDirection id="dd" deg="276.0" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="2.6" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="5.2"/>
+        
+            
+        <globalRadiation value="13.9" unit="W/m^2"/>
+        
+            
+        <humidity value="76.1" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1021.1"/>
+        
+            
+        <cloudiness id="NN" percent="98.2"/>
+        
+            
+        <lowClouds id="LOW" percent="89.8"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="91.1"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T04:00:00Z" to="2025-07-02T05:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="6.1"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T06:00:00Z" to="2025-07-02T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="11.8"/>
+        
+            
+        <windDirection id="dd" deg="277.8" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="2.7" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="5.3"/>
+        
+            
+        <globalRadiation value="80.3" unit="W/m^2"/>
+        
+            
+        <humidity value="78.7" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1021.2"/>
+        
+            
+        <cloudiness id="NN" percent="100.0"/>
+        
+            
+        <lowClouds id="LOW" percent="81.1"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="99.8"/>
+        
+            
+        <highClouds id="HIGH" percent="0.7"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T05:00:00Z" to="2025-07-02T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="7.5"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T07:00:00Z" to="2025-07-02T07:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="12.3"/>
+        
+            
+        <windDirection id="dd" deg="272.8" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.0" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="5.6"/>
+        
+            
+        <globalRadiation value="197.0" unit="W/m^2"/>
+        
+            
+        <humidity value="79.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1021.6"/>
+        
+            
+        <cloudiness id="NN" percent="60.9"/>
+        
+            
+        <lowClouds id="LOW" percent="10.1"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="45.6"/>
+        
+            
+        <highClouds id="HIGH" percent="10.4"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T06:00:00Z" to="2025-07-02T07:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.8"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T08:00:00Z" to="2025-07-02T08:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.7"/>
+        
+            
+        <windDirection id="dd" deg="268.9" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="2.7" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="6.2"/>
+        
+            
+        <globalRadiation value="326.8" unit="W/m^2"/>
+        
+            
+        <humidity value="73.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1022.2"/>
+        
+            
+        <cloudiness id="NN" percent="80.8"/>
+        
+            
+        <lowClouds id="LOW" percent="62.3"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="49.9"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T07:00:00Z" to="2025-07-02T08:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="2.9"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T09:00:00Z" to="2025-07-02T09:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.5"/>
+        
+            
+        <windDirection id="dd" deg="267.7" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.1" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="6.8"/>
+        
+            
+        <globalRadiation value="474.0" unit="W/m^2"/>
+        
+            
+        <humidity value="68.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1022.6"/>
+        
+            
+        <cloudiness id="NN" percent="58.7"/>
+        
+            
+        <lowClouds id="LOW" percent="50.8"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="13.5"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T08:00:00Z" to="2025-07-02T09:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.6"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T10:00:00Z" to="2025-07-02T10:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.2"/>
+        
+            
+        <windDirection id="dd" deg="260.2" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.0" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="7.5"/>
+        
+            
+        <globalRadiation value="633.7" unit="W/m^2"/>
+        
+            
+        <humidity value="63.2" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1023.0"/>
+        
+            
+        <cloudiness id="NN" percent="69.2"/>
+        
+            
+        <lowClouds id="LOW" percent="44.2"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="39.2"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T09:00:00Z" to="2025-07-02T10:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T11:00:00Z" to="2025-07-02T11:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.5"/>
+        
+            
+        <windDirection id="dd" deg="253.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.4" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="8.2"/>
+        
+            
+        <globalRadiation value="706.1" unit="W/m^2"/>
+        
+            
+        <humidity value="57.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1023.1"/>
+        
+            
+        <cloudiness id="NN" percent="43.8"/>
+        
+            
+        <lowClouds id="LOW" percent="43.8"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.2"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T10:00:00Z" to="2025-07-02T11:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.1"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T12:00:00Z" to="2025-07-02T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.0"/>
+        
+            
+        <windDirection id="dd" deg="258.6" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.6" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="8.8"/>
+        
+            
+        <globalRadiation value="694.6" unit="W/m^2"/>
+        
+            
+        <humidity value="48.5" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1023.0"/>
+        
+            
+        <cloudiness id="NN" percent="33.4"/>
+        
+            
+        <lowClouds id="LOW" percent="33.4"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="6.1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T11:00:00Z" to="2025-07-02T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.3"/>
+        
+
+        <symbol id="LightCloud" number="2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T13:00:00Z" to="2025-07-02T13:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.3"/>
+        
+            
+        <windDirection id="dd" deg="251.5" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.7" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.2"/>
+        
+            
+        <globalRadiation value="713.7" unit="W/m^2"/>
+        
+            
+        <humidity value="47.7" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1023.3"/>
+        
+            
+        <cloudiness id="NN" percent="97.6"/>
+        
+            
+        <lowClouds id="LOW" percent="97.6"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="32.4"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="6.1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T12:00:00Z" to="2025-07-02T13:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.9"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T14:00:00Z" to="2025-07-02T14:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.7"/>
+        
+            
+        <windDirection id="dd" deg="250.6" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.9" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.0"/>
+        
+            
+        <globalRadiation value="646.7" unit="W/m^2"/>
+        
+            
+        <humidity value="51.2" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1023.5"/>
+        
+            
+        <cloudiness id="NN" percent="73.3"/>
+        
+            
+        <lowClouds id="LOW" percent="26.3"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="20.0"/>
+        
+            
+        <highClouds id="HIGH" percent="53.4"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T13:00:00Z" to="2025-07-02T14:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="7.6"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T15:00:00Z" to="2025-07-02T15:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.0"/>
+        
+            
+        <windDirection id="dd" deg="283.3" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.3" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="11.2"/>
+        
+            
+        <globalRadiation value="583.0" unit="W/m^2"/>
+        
+            
+        <humidity value="58.3" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1023.8"/>
+        
+            
+        <cloudiness id="NN" percent="81.4"/>
+        
+            
+        <lowClouds id="LOW" percent="54.6"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="64.5"/>
+        
+            
+        <highClouds id="HIGH" percent="0.3"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T14:00:00Z" to="2025-07-02T15:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.3" probability="15.9"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T16:00:00Z" to="2025-07-02T16:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.5"/>
+        
+            
+        <windDirection id="dd" deg="268.7" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.3" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="11.0"/>
+        
+            
+        <globalRadiation value="535.9" unit="W/m^2"/>
+        
+            
+        <humidity value="54.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1024.1"/>
+        
+            
+        <cloudiness id="NN" percent="31.0"/>
+        
+            
+        <lowClouds id="LOW" percent="30.9"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.1"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T15:00:00Z" to="2025-07-02T16:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.1" minvalue="0.0" maxvalue="0.4" probability="16.1"/>
+        
+
+        <symbol id="DrizzleSun" number="40"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T17:00:00Z" to="2025-07-02T17:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="18.1"/>
+        
+            
+        <windDirection id="dd" deg="271.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.7" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.7"/>
+        
+            
+        <globalRadiation value="441.4" unit="W/m^2"/>
+        
+            
+        <humidity value="47.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1024.0"/>
+        
+            
+        <cloudiness id="NN" percent="2.8"/>
+        
+            
+        <lowClouds id="LOW" percent="2.8"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="6.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T16:00:00Z" to="2025-07-02T17:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.2" probability="9.5"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T18:00:00Z" to="2025-07-02T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.9"/>
+        
+            
+        <windDirection id="dd" deg="264.8" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.9" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.5"/>
+        
+            
+        <globalRadiation value="365.7" unit="W/m^2"/>
+        
+            
+        <humidity value="51.5" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1024.1"/>
+        
+            
+        <cloudiness id="NN" percent="62.0"/>
+        
+            
+        <lowClouds id="LOW" percent="58.4"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="13.4"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T17:00:00Z" to="2025-07-02T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="4.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T19:00:00Z" to="2025-07-02T19:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.0"/>
+        
+            
+        <windDirection id="dd" deg="285.5" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.9" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.5"/>
+        
+            
+        <globalRadiation value="209.5" unit="W/m^2"/>
+        
+            
+        <humidity value="55.0" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1024.4"/>
+        
+            
+        <cloudiness id="NN" percent="37.6"/>
+        
+            
+        <lowClouds id="LOW" percent="32.3"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="33.3"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T18:00:00Z" to="2025-07-02T19:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.2" probability="9.8"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T20:00:00Z" to="2025-07-02T20:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.7"/>
+        
+            
+        <windDirection id="dd" deg="286.7" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="2.5" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="8.6"/>
+        
+            
+        <globalRadiation value="108.0" unit="W/m^2"/>
+        
+            
+        <humidity value="62.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1025.0"/>
+        
+            
+        <cloudiness id="NN" percent="5.6"/>
+        
+            
+        <lowClouds id="LOW" percent="5.6"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T19:00:00Z" to="2025-07-02T20:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="4.7"/>
+        
+
+        <symbol id="Sun" number="1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T21:00:00Z" to="2025-07-02T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.5"/>
+        
+            
+        <windDirection id="dd" deg="275.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="2.3" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="7.7"/>
+        
+            
+        <globalRadiation value="18.6" unit="W/m^2"/>
+        
+            
+        <humidity value="59.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1025.8"/>
+        
+            
+        <cloudiness id="NN" percent="68.3"/>
+        
+            
+        <lowClouds id="LOW" percent="68.3"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="1.0"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T20:00:00Z" to="2025-07-02T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="4.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T22:00:00Z" to="2025-07-02T22:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.4"/>
+        
+            
+        <windDirection id="dd" deg="289.0" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="2.1" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="7.0"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="66.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1026.5"/>
+        
+            
+        <cloudiness id="NN" percent="91.9"/>
+        
+            
+        <lowClouds id="LOW" percent="91.9"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T21:00:00Z" to="2025-07-02T22:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="2.9"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T23:00:00Z" to="2025-07-02T23:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.9"/>
+        
+            
+        <windDirection id="dd" deg="236.3" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="3.3" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="7.3"/>
+        
+            
+        <globalRadiation value="0.1" unit="W/m^2"/>
+        
+            
+        <humidity value="67.1" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1026.8"/>
+        
+            
+        <cloudiness id="NN" percent="70.4"/>
+        
+            
+        <lowClouds id="LOW" percent="56.5"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        
+            
+        <highClouds id="HIGH" percent="30.1"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T22:00:00Z" to="2025-07-02T23:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.7"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T00:00:00Z" to="2025-07-03T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="12.7"/>
+        
+            
+        <windDirection id="dd" deg="251.2" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.6" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="7.6"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="67.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.1"/>
+        
+            
+        <cloudiness id="NN" percent="97.5"/>
+        
+            
+        <lowClouds id="LOW" percent="40.6"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        
+            
+        <highClouds id="HIGH" percent="97.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="6.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-02T23:00:00Z" to="2025-07-03T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.7"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T01:00:00Z" to="2025-07-03T01:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="12.5"/>
+        
+            
+        <windDirection id="dd" deg="249.9" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.3" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="7.1"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="68.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.6"/>
+        
+            
+        <cloudiness id="NN" percent="99.5"/>
+        
+            
+        <lowClouds id="LOW" percent="49.0"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        
+            
+        <highClouds id="HIGH" percent="99.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="6.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T00:00:00Z" to="2025-07-03T01:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.7"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T02:00:00Z" to="2025-07-03T02:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="12.4"/>
+        
+            
+        <windDirection id="dd" deg="246.9" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="3.1" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="6.8"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="69.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.8"/>
+        
+            
+        <cloudiness id="NN" percent="97.7"/>
+        
+            
+        <lowClouds id="LOW" percent="31.3"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        
+            
+        <highClouds id="HIGH" percent="97.1"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="6.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T01:00:00Z" to="2025-07-03T02:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T03:00:00Z" to="2025-07-03T03:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="12.3"/>
+        
+            
+        <windDirection id="dd" deg="245.7" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="2.9" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="6.8"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="69.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.7"/>
+        
+            
+        <cloudiness id="NN" percent="37.0"/>
+        
+            
+        <lowClouds id="LOW" percent="0.0"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        
+            
+        <highClouds id="HIGH" percent="37.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T02:00:00Z" to="2025-07-03T03:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="LightCloud" number="2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T04:00:00Z" to="2025-07-03T04:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="12.0"/>
+        
+            
+        <windDirection id="dd" deg="240.2" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="2.9" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="7.3"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="70.2" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.7"/>
+        
+            
+        <cloudiness id="NN" percent="16.2"/>
+        
+            
+        <lowClouds id="LOW" percent="0.0"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        
+            
+        <highClouds id="HIGH" percent="16.2"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="6.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T03:00:00Z" to="2025-07-03T04:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="LightCloud" number="2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T05:00:00Z" to="2025-07-03T05:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="12.2"/>
+        
+            
+        <windDirection id="dd" deg="237.5" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="2.9" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="8.0"/>
+        
+            
+        <globalRadiation value="19.9" unit="W/m^2"/>
+        
+            
+        <humidity value="70.1" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.8"/>
+        
+            
+        <cloudiness id="NN" percent="10.3"/>
+        
+            
+        <lowClouds id="LOW" percent="0.0"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="0.0"/>
+        
+            
+        <highClouds id="HIGH" percent="10.3"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="6.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T04:00:00Z" to="2025-07-03T05:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.3"/>
+        
+
+        <symbol id="Sun" number="1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T06:00:00Z" to="2025-07-03T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.0"/>
+        
+            
+        <windDirection id="dd" deg="231.7" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="3.4" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="8.7"/>
+        
+            
+        <globalRadiation value="98.9" unit="W/m^2"/>
+        
+            
+        <humidity value="68.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1028.2"/>
+        
+            
+        <cloudiness id="NN" percent="13.3"/>
+        
+            
+        <lowClouds id="LOW" percent="2.1"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="3.3"/>
+        
+            
+        <highClouds id="HIGH" percent="8.7"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T05:00:00Z" to="2025-07-03T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.1"/>
+        
+
+        <symbol id="LightCloud" number="2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T07:00:00Z" to="2025-07-03T07:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.3"/>
+        
+            
+        <windDirection id="dd" deg="227.2" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="3.5" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.7"/>
+        
+            
+        <globalRadiation value="208.6" unit="W/m^2"/>
+        
+            
+        <humidity value="65.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1028.4"/>
+        
+            
+        <cloudiness id="NN" percent="20.5"/>
+        
+            
+        <lowClouds id="LOW" percent="7.1"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="13.0"/>
+        
+            
+        <highClouds id="HIGH" percent="1.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T06:00:00Z" to="2025-07-03T07:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="LightCloud" number="2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T08:00:00Z" to="2025-07-03T08:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.5"/>
+        
+            
+        <windDirection id="dd" deg="237.0" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="4.1" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.2"/>
+        
+            
+        <globalRadiation value="341.6" unit="W/m^2"/>
+        
+            
+        <humidity value="66.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1028.4"/>
+        
+            
+        <cloudiness id="NN" percent="19.0"/>
+        
+            
+        <lowClouds id="LOW" percent="18.4"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="1.0"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T07:00:00Z" to="2025-07-03T08:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="LightCloud" number="2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T09:00:00Z" to="2025-07-03T09:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.9"/>
+        
+            
+        <windDirection id="dd" deg="245.0" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="5.1" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.5"/>
+        
+            
+        <globalRadiation value="448.0" unit="W/m^2"/>
+        
+            
+        <humidity value="71.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1028.5"/>
+        
+            
+        <cloudiness id="NN" percent="100.0"/>
+        
+            
+        <lowClouds id="LOW" percent="97.5"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="98.3"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T08:00:00Z" to="2025-07-03T09:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.2"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T10:00:00Z" to="2025-07-03T10:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.0"/>
+        
+            
+        <windDirection id="dd" deg="239.0" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="4.2" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.4"/>
+        
+            
+        <globalRadiation value="516.5" unit="W/m^2"/>
+        
+            
+        <humidity value="72.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1028.7"/>
+        
+            
+        <cloudiness id="NN" percent="71.5"/>
+        
+            
+        <lowClouds id="LOW" percent="17.5"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="59.2"/>
+        
+            
+        <highClouds id="HIGH" percent="3.2"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T09:00:00Z" to="2025-07-03T10:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.6"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T11:00:00Z" to="2025-07-03T11:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.7"/>
+        
+            
+        <windDirection id="dd" deg="241.1" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="3.3" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.2"/>
+        
+            
+        <globalRadiation value="565.5" unit="W/m^2"/>
+        
+            
+        <humidity value="59.2" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1028.5"/>
+        
+            
+        <cloudiness id="NN" percent="55.1"/>
+        
+            
+        <lowClouds id="LOW" percent="50.3"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="21.9"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T10:00:00Z" to="2025-07-03T11:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="1.8"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T12:00:00Z" to="2025-07-03T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.0"/>
+        
+            
+        <windDirection id="dd" deg="251.9" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.3" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.2"/>
+        
+            
+        <globalRadiation value="567.2" unit="W/m^2"/>
+        
+            
+        <humidity value="66.0" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1028.6"/>
+        
+            
+        <cloudiness id="NN" percent="71.3"/>
+        
+            
+        <lowClouds id="LOW" percent="33.3"/>
+        
+            
+        <mediumClouds id="MEDIUM" percent="70.2"/>
+        
+            
+        <highClouds id="HIGH" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.6"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T11:00:00Z" to="2025-07-03T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="5.6"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T13:00:00Z" to="2025-07-03T13:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="18.1"/>
+        
+            
+        <windDirection id="dd" deg="259.0" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.7" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.2"/>
+        
+            
+        <globalRadiation value="512.9" unit="W/m^2"/>
+        
+            
+        <humidity value="60.3" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.2"/>
+        
+            
+        <cloudiness id="NN" percent="57.6"/>
+        
+            
+        <lowClouds id="LOW" percent="27.8"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T12:00:00Z" to="2025-07-03T13:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.2" probability="21.7"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T14:00:00Z" to="2025-07-03T14:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="18.0"/>
+        
+            
+        <windDirection id="dd" deg="256.8" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.1" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.5"/>
+        
+            
+        <globalRadiation value="485.0" unit="W/m^2"/>
+        
+            
+        <humidity value="59.2" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.1"/>
+        
+            
+        <cloudiness id="NN" percent="69.7"/>
+        
+            
+        <lowClouds id="LOW" percent="13.5"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T13:00:00Z" to="2025-07-03T14:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.3" probability="24.5"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T15:00:00Z" to="2025-07-03T15:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="18.2"/>
+        
+            
+        <windDirection id="dd" deg="255.7" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.2" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="13.0"/>
+        
+            
+        <globalRadiation value="505.8" unit="W/m^2"/>
+        
+            
+        <humidity value="60.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1026.8"/>
+        
+            
+        <cloudiness id="NN" percent="21.5"/>
+        
+            
+        <lowClouds id="LOW" percent="4.7"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T14:00:00Z" to="2025-07-03T15:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.3" probability="30.9"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T16:00:00Z" to="2025-07-03T16:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="18.4"/>
+        
+            
+        <windDirection id="dd" deg="261.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.9" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="13.3"/>
+        
+            
+        <globalRadiation value="468.3" unit="W/m^2"/>
+        
+            
+        <humidity value="61.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1026.6"/>
+        
+            
+        <cloudiness id="NN" percent="22.1"/>
+        
+            
+        <lowClouds id="LOW" percent="8.7"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T15:00:00Z" to="2025-07-03T16:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.2" probability="23.2"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T17:00:00Z" to="2025-07-03T17:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="18.6"/>
+        
+            
+        <windDirection id="dd" deg="256.9" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.5" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="13.3"/>
+        
+            
+        <globalRadiation value="402.6" unit="W/m^2"/>
+        
+            
+        <humidity value="60.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1026.4"/>
+        
+            
+        <cloudiness id="NN" percent="28.4"/>
+        
+            
+        <lowClouds id="LOW" percent="10.5"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T16:00:00Z" to="2025-07-03T17:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.2" probability="14.7"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T18:00:00Z" to="2025-07-03T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="18.3"/>
+        
+            
+        <windDirection id="dd" deg="264.9" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.5" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.9"/>
+        
+            
+        <globalRadiation value="307.4" unit="W/m^2"/>
+        
+            
+        <humidity value="61.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1026.5"/>
+        
+            
+        <cloudiness id="NN" percent="98.0"/>
+        
+            
+        <lowClouds id="LOW" percent="5.5"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T17:00:00Z" to="2025-07-03T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="7.1"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T19:00:00Z" to="2025-07-03T19:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.7"/>
+        
+            
+        <windDirection id="dd" deg="267.2" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.1" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.2"/>
+        
+            
+        <globalRadiation value="191.7" unit="W/m^2"/>
+        
+            
+        <humidity value="65.2" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1026.8"/>
+        
+            
+        <cloudiness id="NN" percent="74.2"/>
+        
+            
+        <lowClouds id="LOW" percent="10.3"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T18:00:00Z" to="2025-07-03T19:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="2.3"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T20:00:00Z" to="2025-07-03T20:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.9"/>
+        
+            
+        <windDirection id="dd" deg="271.3" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.7" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.9"/>
+        
+            
+        <globalRadiation value="88.2" unit="W/m^2"/>
+        
+            
+        <humidity value="71.5" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.2"/>
+        
+            
+        <cloudiness id="NN" percent="48.4"/>
+        
+            
+        <lowClouds id="LOW" percent="1.9"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T19:00:00Z" to="2025-07-03T20:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T21:00:00Z" to="2025-07-03T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.1"/>
+        
+            
+        <windDirection id="dd" deg="268.7" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.2" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.5"/>
+        
+            
+        <globalRadiation value="15.7" unit="W/m^2"/>
+        
+            
+        <humidity value="75.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.6"/>
+        
+            
+        <cloudiness id="NN" percent="82.0"/>
+        
+            
+        <lowClouds id="LOW" percent="7.6"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T20:00:00Z" to="2025-07-03T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.1"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T22:00:00Z" to="2025-07-03T22:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.4"/>
+        
+            
+        <windDirection id="dd" deg="263.4" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.1" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.2"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="77.3" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.5"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="2.6"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T21:00:00Z" to="2025-07-03T22:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T23:00:00Z" to="2025-07-03T23:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.0"/>
+        
+            
+        <windDirection id="dd" deg="261.4" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.8" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.4"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="76.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1027.4"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="0.8"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T22:00:00Z" to="2025-07-03T23:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T00:00:00Z" to="2025-07-04T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.5"/>
+        
+            
+        <windDirection id="dd" deg="257.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.7" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.6"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="77.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1026.9"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="1.6"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-03T23:00:00Z" to="2025-07-04T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T01:00:00Z" to="2025-07-04T01:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.2"/>
+        
+            
+        <windDirection id="dd" deg="255.5" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.5" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.7"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="80.2" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1026.5"/>
+        
+            
+        <cloudiness id="NN" percent="91.6"/>
+        
+            
+        <lowClouds id="LOW" percent="2.5"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T00:00:00Z" to="2025-07-04T01:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T02:00:00Z" to="2025-07-04T02:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.9"/>
+        
+            
+        <windDirection id="dd" deg="253.2" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.3" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.8"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="81.1" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1026.2"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="4.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T01:00:00Z" to="2025-07-04T02:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T03:00:00Z" to="2025-07-04T03:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.7"/>
+        
+            
+        <windDirection id="dd" deg="252.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.5" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.9"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="81.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1026.0"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="4.2"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T02:00:00Z" to="2025-07-04T03:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T04:00:00Z" to="2025-07-04T04:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.7"/>
+        
+            
+        <windDirection id="dd" deg="250.6" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.5" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.9"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="82.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1025.6"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="8.7"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T03:00:00Z" to="2025-07-04T04:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T05:00:00Z" to="2025-07-04T05:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.6"/>
+        
+            
+        <windDirection id="dd" deg="248.0" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.6" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.0"/>
+        
+            
+        <globalRadiation value="12.7" unit="W/m^2"/>
+        
+            
+        <humidity value="84.0" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1025.6"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="9.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T04:00:00Z" to="2025-07-04T05:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="2.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T06:00:00Z" to="2025-07-04T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.9"/>
+        
+            
+        <windDirection id="dd" deg="243.5" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="3.0" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.2"/>
+        
+            
+        <globalRadiation value="58.9" unit="W/m^2"/>
+        
+            
+        <humidity value="82.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1025.3"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="11.5"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T05:00:00Z" to="2025-07-04T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="2.1"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T07:00:00Z" to="2025-07-04T07:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.6"/>
+        
+            
+        <windDirection id="dd" deg="243.0" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="4.6" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.3"/>
+        
+            
+        <globalRadiation value="115.8" unit="W/m^2"/>
+        
+            
+        <humidity value="78.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1025.2"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="11.1"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T06:00:00Z" to="2025-07-04T07:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="4.2"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T08:00:00Z" to="2025-07-04T08:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.5"/>
+        
+            
+        <windDirection id="dd" deg="247.9" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.4" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="11.4"/>
+        
+            
+        <globalRadiation value="182.1" unit="W/m^2"/>
+        
+            
+        <humidity value="72.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1024.7"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="22.6"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.6"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T07:00:00Z" to="2025-07-04T08:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.0" probability="8.9"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T09:00:00Z" to="2025-07-04T09:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.0"/>
+        
+            
+        <windDirection id="dd" deg="249.0" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.0" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.4"/>
+        
+            
+        <globalRadiation value="217.9" unit="W/m^2"/>
+        
+            
+        <humidity value="69.7" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1024.4"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="16.3"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T08:00:00Z" to="2025-07-04T09:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="11.1"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T10:00:00Z" to="2025-07-04T10:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.4"/>
+        
+            
+        <windDirection id="dd" deg="237.9" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="4.4" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="13.1"/>
+        
+            
+        <globalRadiation value="244.5" unit="W/m^2"/>
+        
+            
+        <humidity value="67.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1023.9"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="1.6"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T09:00:00Z" to="2025-07-04T10:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="16.8"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T11:00:00Z" to="2025-07-04T11:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.7"/>
+        
+            
+        <windDirection id="dd" deg="220.8" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="4.0" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="13.3"/>
+        
+            
+        <globalRadiation value="249.7" unit="W/m^2"/>
+        
+            
+        <humidity value="67.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1023.3"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="0.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.6"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T10:00:00Z" to="2025-07-04T11:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.3" probability="25.4"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T12:00:00Z" to="2025-07-04T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.3"/>
+        
+            
+        <windDirection id="dd" deg="223.5" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="4.5" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="13.9"/>
+        
+            
+        <globalRadiation value="277.1" unit="W/m^2"/>
+        
+            
+        <humidity value="65.3" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1022.6"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="19.2"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T11:00:00Z" to="2025-07-04T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.1" minvalue="0.0" maxvalue="0.3" probability="31.4"/>
+        
+
+        <symbol id="Drizzle" number="46"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T13:00:00Z" to="2025-07-04T13:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="18.2"/>
+        
+            
+        <windDirection id="dd" deg="230.2" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="5.5" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="14.8"/>
+        
+            
+        <globalRadiation value="289.6" unit="W/m^2"/>
+        
+            
+        <humidity value="59.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1021.8"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="10.2"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T12:00:00Z" to="2025-07-04T13:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.2" probability="22.9"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T14:00:00Z" to="2025-07-04T14:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.9"/>
+        
+            
+        <windDirection id="dd" deg="232.2" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="5.3" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="15.5"/>
+        
+            
+        <globalRadiation value="279.8" unit="W/m^2"/>
+        
+            
+        <humidity value="62.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1021.2"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="2.5"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T13:00:00Z" to="2025-07-04T14:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.3" probability="27.5"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T15:00:00Z" to="2025-07-04T15:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.8"/>
+        
+            
+        <windDirection id="dd" deg="226.1" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="5.0" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="15.5"/>
+        
+            
+        <globalRadiation value="245.7" unit="W/m^2"/>
+        
+            
+        <humidity value="65.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1020.3"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="37.6"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T14:00:00Z" to="2025-07-04T15:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.2" probability="23.1"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T16:00:00Z" to="2025-07-04T16:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.1"/>
+        
+            
+        <windDirection id="dd" deg="229.8" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="5.4" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="15.2"/>
+        
+            
+        <globalRadiation value="195.9" unit="W/m^2"/>
+        
+            
+        <humidity value="71.1" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1019.4"/>
+        
+            
+        <cloudiness id="NN" percent="85.0"/>
+        
+            
+        <lowClouds id="LOW" percent="59.7"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T15:00:00Z" to="2025-07-04T16:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.3" probability="24.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T17:00:00Z" to="2025-07-04T17:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.1"/>
+        
+            
+        <windDirection id="dd" deg="232.7" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="5.5" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="14.6"/>
+        
+            
+        <globalRadiation value="150.9" unit="W/m^2"/>
+        
+            
+        <humidity value="72.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1018.9"/>
+        
+            
+        <cloudiness id="NN" percent="88.0"/>
+        
+            
+        <lowClouds id="LOW" percent="81.3"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="12.2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T16:00:00Z" to="2025-07-04T17:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="13.5"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T18:00:00Z" to="2025-07-04T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.1"/>
+        
+            
+        <windDirection id="dd" deg="233.2" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="5.1" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="14.1"/>
+        
+            
+        <globalRadiation value="103.5" unit="W/m^2"/>
+        
+            
+        <humidity value="72.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1018.3"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="99.2"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="12.2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T17:00:00Z" to="2025-07-04T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0" minvalue="0.0" maxvalue="0.1" probability="11.2"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T21:00:00Z" to="2025-07-04T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.6"/>
+        
+            
+        <windDirection id="dd" deg="244.5" name="SW"/>
+        
+            
+        <windSpeed id="ff" mps="6.7" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="13.7"/>
+        
+            
+        <globalRadiation value="28.6" unit="W/m^2"/>
+        
+            
+        <humidity value="77.7" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1016.8"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="100.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="12.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T18:00:00Z" to="2025-07-04T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T00:00:00Z" to="2025-07-05T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.5"/>
+        
+            
+        <windDirection id="dd" deg="248.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.9" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.6"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="83.7" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1015.1"/>
+        
+            
+        <cloudiness id="NN" percent="99.0"/>
+        
+            
+        <lowClouds id="LOW" percent="100.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="13.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-04T21:00:00Z" to="2025-07-05T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T03:00:00Z" to="2025-07-05T03:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.2"/>
+        
+            
+        <windDirection id="dd" deg="256.4" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.1" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="11.8"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="86.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1013.5"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="100.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="14.2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T00:00:00Z" to="2025-07-05T03:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T06:00:00Z" to="2025-07-05T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.0"/>
+        
+            
+        <windDirection id="dd" deg="264.7" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.7" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="11.4"/>
+        
+            
+        <globalRadiation value="14.9" unit="W/m^2"/>
+        
+            
+        <humidity value="87.2" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1012.6"/>
+        
+            
+        <cloudiness id="NN" percent="98.6"/>
+        
+            
+        <lowClouds id="LOW" percent="100.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="14.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T03:00:00Z" to="2025-07-05T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T09:00:00Z" to="2025-07-05T09:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.6"/>
+        
+            
+        <windDirection id="dd" deg="258.5" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.8" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="13.1"/>
+        
+            
+        <globalRadiation value="163.9" unit="W/m^2"/>
+        
+            
+        <humidity value="75.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1011.2"/>
+        
+            
+        <cloudiness id="NN" percent="84.6"/>
+        
+            
+        <lowClouds id="LOW" percent="76.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="13.4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T06:00:00Z" to="2025-07-05T09:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T12:00:00Z" to="2025-07-05T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="19.3"/>
+        
+            
+        <windDirection id="dd" deg="250.4" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.8" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="13.5"/>
+        
+            
+        <globalRadiation value="369.6" unit="W/m^2"/>
+        
+            
+        <humidity value="68.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1009.0"/>
+        
+            
+        <cloudiness id="NN" percent="63.6"/>
+        
+            
+        <lowClouds id="LOW" percent="64.3"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="13.4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T09:00:00Z" to="2025-07-05T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T15:00:00Z" to="2025-07-05T15:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="19.2"/>
+        
+            
+        <windDirection id="dd" deg="257.2" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.4" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="13.3"/>
+        
+            
+        <globalRadiation value="457.5" unit="W/m^2"/>
+        
+            
+        <humidity value="71.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1006.7"/>
+        
+            
+        <cloudiness id="NN" percent="94.1"/>
+        
+            
+        <lowClouds id="LOW" percent="91.9"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="14.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T12:00:00Z" to="2025-07-05T15:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.3"/>
+        
+
+        <symbol id="Drizzle" number="46"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T18:00:00Z" to="2025-07-05T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.7"/>
+        
+            
+        <windDirection id="dd" deg="272.9" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.8" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.9"/>
+        
+            
+        <globalRadiation value="287.6" unit="W/m^2"/>
+        
+            
+        <humidity value="75.7" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1005.4"/>
+        
+            
+        <cloudiness id="NN" percent="82.9"/>
+        
+            
+        <lowClouds id="LOW" percent="82.8"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="13.5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T15:00:00Z" to="2025-07-05T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.3"/>
+        
+
+        <symbol id="DrizzleSun" number="40"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T21:00:00Z" to="2025-07-05T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.6"/>
+        
+            
+        <windDirection id="dd" deg="275.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.6" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.0"/>
+        
+            
+        <globalRadiation value="62.6" unit="W/m^2"/>
+        
+            
+        <humidity value="81.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1005.8"/>
+        
+            
+        <cloudiness id="NN" percent="98.6"/>
+        
+            
+        <lowClouds id="LOW" percent="100.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="12.6"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T18:00:00Z" to="2025-07-05T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T00:00:00Z" to="2025-07-06T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.1"/>
+        
+            
+        <windDirection id="dd" deg="277.4" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.6" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.3"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="83.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1005.5"/>
+        
+            
+        <cloudiness id="NN" percent="88.5"/>
+        
+            
+        <lowClouds id="LOW" percent="83.5"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-05T21:00:00Z" to="2025-07-06T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.4"/>
+        
+
+        <symbol id="Drizzle" number="46"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T03:00:00Z" to="2025-07-06T03:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.5"/>
+        
+            
+        <windDirection id="dd" deg="261.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.9" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.9"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="86.0" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1004.5"/>
+        
+            
+        <cloudiness id="NN" percent="98.7"/>
+        
+            
+        <lowClouds id="LOW" percent="100.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T00:00:00Z" to="2025-07-06T03:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T06:00:00Z" to="2025-07-06T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.5"/>
+        
+            
+        <windDirection id="dd" deg="261.1" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.3" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.2"/>
+        
+            
+        <globalRadiation value="18.5" unit="W/m^2"/>
+        
+            
+        <humidity value="85.2" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1004.1"/>
+        
+            
+        <cloudiness id="NN" percent="98.7"/>
+        
+            
+        <lowClouds id="LOW" percent="98.5"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T03:00:00Z" to="2025-07-06T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T09:00:00Z" to="2025-07-06T09:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.7"/>
+        
+            
+        <windDirection id="dd" deg="283.5" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="6.3" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.1"/>
+        
+            
+        <globalRadiation value="189.4" unit="W/m^2"/>
+        
+            
+        <humidity value="80.8" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1004.2"/>
+        
+            
+        <cloudiness id="NN" percent="99.0"/>
+        
+            
+        <lowClouds id="LOW" percent="94.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T06:00:00Z" to="2025-07-06T09:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T12:00:00Z" to="2025-07-06T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.0"/>
+        
+            
+        <windDirection id="dd" deg="305.7" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="7.0" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.5"/>
+        
+            
+        <globalRadiation value="371.1" unit="W/m^2"/>
+        
+            
+        <humidity value="69.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1005.1"/>
+        
+            
+        <cloudiness id="NN" percent="41.1"/>
+        
+            
+        <lowClouds id="LOW" percent="30.4"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T09:00:00Z" to="2025-07-06T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T15:00:00Z" to="2025-07-06T15:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="17.4"/>
+        
+            
+        <windDirection id="dd" deg="306.2" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="6.9" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.5"/>
+        
+            
+        <globalRadiation value="421.2" unit="W/m^2"/>
+        
+            
+        <humidity value="64.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1006.2"/>
+        
+            
+        <cloudiness id="NN" percent="39.2"/>
+        
+            
+        <lowClouds id="LOW" percent="9.4"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T12:00:00Z" to="2025-07-06T15:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.6"/>
+        
+
+        <symbol id="LightRainSun" number="5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T18:00:00Z" to="2025-07-06T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.1"/>
+        
+            
+        <windDirection id="dd" deg="309.4" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="6.7" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.0"/>
+        
+            
+        <globalRadiation value="288.7" unit="W/m^2"/>
+        
+            
+        <humidity value="67.7" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1007.2"/>
+        
+            
+        <cloudiness id="NN" percent="29.0"/>
+        
+            
+        <lowClouds id="LOW" percent="16.3"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T15:00:00Z" to="2025-07-06T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="LightCloud" number="2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T21:00:00Z" to="2025-07-06T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="14.3"/>
+        
+            
+        <windDirection id="dd" deg="299.9" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="5.1" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.8"/>
+        
+            
+        <globalRadiation value="70.2" unit="W/m^2"/>
+        
+            
+        <humidity value="73.7" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1009.0"/>
+        
+            
+        <cloudiness id="NN" percent="8.5"/>
+        
+            
+        <lowClouds id="LOW" percent="4.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T18:00:00Z" to="2025-07-06T21:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Sun" number="1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-07T00:00:00Z" to="2025-07-07T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="12.2"/>
+        
+            
+        <windDirection id="dd" deg="285.7" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="4.8" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="8.5"/>
+        
+            
+        <globalRadiation value="0.0" unit="W/m^2"/>
+        
+            
+        <humidity value="84.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1009.9"/>
+        
+            
+        <cloudiness id="NN" percent="16.7"/>
+        
+            
+        <lowClouds id="LOW" percent="12.8"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-06T21:00:00Z" to="2025-07-07T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="LightCloud" number="2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-07T06:00:00Z" to="2025-07-07T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="11.6"/>
+        
+            
+        <windDirection id="dd" deg="286.0" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="5.6" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.3"/>
+        
+            
+        <globalRadiation value="12.7" unit="W/m^2"/>
+        
+            
+        <humidity value="86.5" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1010.1"/>
+        
+            
+        <cloudiness id="NN" percent="79.3"/>
+        
+            
+        <lowClouds id="LOW" percent="21.7"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-07T00:00:00Z" to="2025-07-07T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-07T12:00:00Z" to="2025-07-07T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.8"/>
+        
+            
+        <windDirection id="dd" deg="296.3" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="4.9" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.0"/>
+        
+            
+        <globalRadiation value="353.9" unit="W/m^2"/>
+        
+            
+        <humidity value="61.0" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1010.2"/>
+        
+            
+        <cloudiness id="NN" percent="76.8"/>
+        
+            
+        <lowClouds id="LOW" percent="63.8"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-07T06:00:00Z" to="2025-07-07T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-07T18:00:00Z" to="2025-07-07T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.1"/>
+        
+            
+        <windDirection id="dd" deg="303.4" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="3.9" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="12.5"/>
+        
+            
+        <globalRadiation value="433.6" unit="W/m^2"/>
+        
+            
+        <humidity value="68.1" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1009.5"/>
+        
+            
+        <cloudiness id="NN" percent="45.8"/>
+        
+            
+        <lowClouds id="LOW" percent="8.7"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-07T12:00:00Z" to="2025-07-07T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="1.4"/>
+        
+
+        <symbol id="LightRainSun" number="5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-08T00:00:00Z" to="2025-07-08T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="11.7"/>
+        
+            
+        <windDirection id="dd" deg="286.5" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="3.8" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.4"/>
+        
+            
+        <globalRadiation value="42.3" unit="W/m^2"/>
+        
+            
+        <humidity value="89.2" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1010.4"/>
+        
+            
+        <cloudiness id="NN" percent="48.4"/>
+        
+            
+        <lowClouds id="LOW" percent="14.3"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-07T18:00:00Z" to="2025-07-08T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.9"/>
+        
+
+        <symbol id="DrizzleSun" number="40"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-08T06:00:00Z" to="2025-07-08T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="10.6"/>
+        
+            
+        <windDirection id="dd" deg="295.9" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="4.7" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="8.3"/>
+        
+            
+        <globalRadiation value="17.1" unit="W/m^2"/>
+        
+            
+        <humidity value="87.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1012.2"/>
+        
+            
+        <cloudiness id="NN" percent="7.5"/>
+        
+            
+        <lowClouds id="LOW" percent="7.5"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.7"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-08T00:00:00Z" to="2025-07-08T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Sun" number="1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-08T12:00:00Z" to="2025-07-08T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.0"/>
+        
+            
+        <windDirection id="dd" deg="324.5" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="5.7" beaufort="4" name="Moderate breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.9"/>
+        
+            
+        <globalRadiation value="428.9" unit="W/m^2"/>
+        
+            
+        <humidity value="56.1" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1014.5"/>
+        
+            
+        <cloudiness id="NN" percent="96.3"/>
+        
+            
+        <lowClouds id="LOW" percent="56.4"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.2"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-08T06:00:00Z" to="2025-07-08T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-08T18:00:00Z" to="2025-07-08T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.2"/>
+        
+            
+        <windDirection id="dd" deg="327.4" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="5.3" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.6"/>
+        
+            
+        <globalRadiation value="451.7" unit="W/m^2"/>
+        
+            
+        <humidity value="61.5" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1016.2"/>
+        
+            
+        <cloudiness id="NN" percent="56.8"/>
+        
+            
+        <lowClouds id="LOW" percent="27.7"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-08T12:00:00Z" to="2025-07-08T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-09T00:00:00Z" to="2025-07-09T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="11.8"/>
+        
+            
+        <windDirection id="dd" deg="306.0" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="3.7" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="8.7"/>
+        
+            
+        <globalRadiation value="44.1" unit="W/m^2"/>
+        
+            
+        <humidity value="81.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1019.2"/>
+        
+            
+        <cloudiness id="NN" percent="6.3"/>
+        
+            
+        <lowClouds id="LOW" percent="6.3"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-08T18:00:00Z" to="2025-07-09T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Sun" number="1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-09T06:00:00Z" to="2025-07-09T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="10.8"/>
+        
+            
+        <windDirection id="dd" deg="296.3" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="3.9" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="6.6"/>
+        
+            
+        <globalRadiation value="14.3" unit="W/m^2"/>
+        
+            
+        <humidity value="86.1" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1020.4"/>
+        
+            
+        <cloudiness id="NN" percent="11.2"/>
+        
+            
+        <lowClouds id="LOW" percent="11.2"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="8.6"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-09T00:00:00Z" to="2025-07-09T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Sun" number="1"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-09T12:00:00Z" to="2025-07-09T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="15.8"/>
+        
+            
+        <windDirection id="dd" deg="326.1" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="3.4" beaufort="3" name="Gentle breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="9.9"/>
+        
+            
+        <globalRadiation value="367.3" unit="W/m^2"/>
+        
+            
+        <humidity value="56.0" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1021.7"/>
+        
+            
+        <cloudiness id="NN" percent="98.8"/>
+        
+            
+        <lowClouds id="LOW" percent="100.0"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="7.0"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-09T06:00:00Z" to="2025-07-09T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-09T18:00:00Z" to="2025-07-09T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.7"/>
+        
+            
+        <windDirection id="dd" deg="308.2" name="NW"/>
+        
+            
+        <windSpeed id="ff" mps="2.1" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.4"/>
+        
+            
+        <globalRadiation value="397.4" unit="W/m^2"/>
+        
+            
+        <humidity value="64.2" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1021.8"/>
+        
+            
+        <cloudiness id="NN" percent="57.4"/>
+        
+            
+        <lowClouds id="LOW" percent="56.7"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.9"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-09T12:00:00Z" to="2025-07-09T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-10T00:00:00Z" to="2025-07-10T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.1"/>
+        
+            
+        <windDirection id="dd" deg="276.3" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="2.0" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="8.9"/>
+        
+            
+        <globalRadiation value="37.2" unit="W/m^2"/>
+        
+            
+        <humidity value="85.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1022.7"/>
+        
+            
+        <cloudiness id="NN" percent="93.9"/>
+        
+            
+        <lowClouds id="LOW" percent="41.5"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.8"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-09T18:00:00Z" to="2025-07-10T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-10T06:00:00Z" to="2025-07-10T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="12.0"/>
+        
+            
+        <windDirection id="dd" deg="260.4" name="W"/>
+        
+            
+        <windSpeed id="ff" mps="1.5" beaufort="1" name="Light air"/>
+        
+            
+        <windGust id="ff_gust" mps="7.5"/>
+        
+            
+        <globalRadiation value="12.8" unit="W/m^2"/>
+        
+            
+        <humidity value="90.4" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1022.7"/>
+        
+            
+        <cloudiness id="NN" percent="59.5"/>
+        
+            
+        <lowClouds id="LOW" percent="45.6"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="10.5"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-10T00:00:00Z" to="2025-07-10T06:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-10T12:00:00Z" to="2025-07-10T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.8"/>
+        
+            
+        <windDirection id="dd" deg="91.1" name="E"/>
+        
+            
+        <windSpeed id="ff" mps="2.5" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.1"/>
+        
+            
+        <globalRadiation value="359.6" unit="W/m^2"/>
+        
+            
+        <humidity value="62.3" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1022.9"/>
+        
+            
+        <cloudiness id="NN" percent="97.2"/>
+        
+            
+        <lowClouds id="LOW" percent="71.2"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="9.6"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-10T06:00:00Z" to="2025-07-10T12:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-10T18:00:00Z" to="2025-07-10T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="16.2"/>
+        
+            
+        <windDirection id="dd" deg="124.1" name="SE"/>
+        
+            
+        <windSpeed id="ff" mps="3.2" beaufort="2" name="Light breeze"/>
+        
+            
+        <windGust id="ff_gust" mps="10.6"/>
+        
+            
+        <globalRadiation value="413.3" unit="W/m^2"/>
+        
+            
+        <humidity value="72.9" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1022.2"/>
+        
+            
+        <cloudiness id="NN" percent="95.2"/>
+        
+            
+        <lowClouds id="LOW" percent="95.3"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="11.4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-10T12:00:00Z" to="2025-07-10T18:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="Cloud" number="4"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-11T00:00:00Z" to="2025-07-11T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <temperature id="TTT" unit="celsius" value="13.1"/>
+        
+            
+        <windDirection id="dd" deg="191.5" name="S"/>
+        
+            
+        <windSpeed id="ff" mps="1.3" beaufort="1" name="Light air"/>
+        
+            
+        <windGust id="ff_gust" mps="9.0"/>
+        
+            
+        <globalRadiation value="38.5" unit="W/m^2"/>
+        
+            
+        <humidity value="96.6" unit="percent"/>
+        
+            
+        <pressure id="pr" unit="hPa" value="1022.4"/>
+        
+            
+        <cloudiness id="NN" percent="82.2"/>
+        
+            
+        <lowClouds id="LOW" percent="2.3"/>
+        
+            
+        <dewpointTemperature id="TD" unit="celsius" value="12.6"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+      
+    <time datatype="forecast" from="2025-07-10T18:00:00Z" to="2025-07-11T00:00:00Z">
+      
+         
+      <location altitude="36" latitude="53.3498" longitude="-6.2603">
+        
+            
+        <precipitation unit="mm" value="0.0"/>
+        
+
+        <symbol id="PartlyCloud" number="3"/>
+        
+         
+      </location>
+      
+      
+    </time>
+    
+   
+  </product>
+  
+
+</weatherdata>

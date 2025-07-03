@@ -1,7 +1,7 @@
 # app.py
 from flask import Flask, request, jsonify
-from langchain_llms import get_weather  # Import from your existing code
-from langchain_testing import ask_question  # Import from your existing code
+from src.llms.langchain_llms import get_weather
+from src.utils.langchain_testing import ask_question
 
 app = Flask(__name__)
 

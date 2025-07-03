@@ -1,21 +1,9 @@
-import os
 import array
 import mariadb
-from dotenv import load_dotenv
+from src.config import DB_CONFIG, EMBEDDING_MODEL
 from langchain.document_loaders import PyMuPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
-
-# Load environment variables
-load_dotenv()
-
-# Database connection settings
-DB_CONFIG = {
-    "host": "localhost",
-    "user": os.getenv("DB_USER"),
-    "password": os.getenv("DB_PASSWORD"),
-    "database": os.getenv("DB_NAME"),
-}
 
 # Step 1: Load and chunk the PDF
 pdf_path = "C:/Users/james/Downloads/Netflix-10-K-01262024.pdf"  # Replace with your actual PDF
@@ -26,7 +14,7 @@ text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 chunks = text_splitter.split_documents(documents)
 
 # Step 2: Generate embeddings
-embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+embedding_model = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
 embeddings = embedding_model.embed_documents([chunk.page_content for chunk in chunks])
 
 # Step 3: Connect to MariaDB

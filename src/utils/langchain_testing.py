@@ -1,26 +1,14 @@
-import os
 import mariadb
 import array
 import numpy as np
 import re
-from dotenv import load_dotenv
-
+from src.config import DB_CONFIG, EMBEDDING_MODEL, LLM_MODEL, LLM_MAX_TOKENS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_together import Together
 
-load_dotenv()
-
-# Config
-DB_CONFIG = {
-    "host": "localhost",
-    "user": os.getenv("DB_USER"),
-    "password": os.getenv("DB_PASSWORD"),
-    "database": os.getenv("DB_NAME"),
-}
-
 # Load embeddings and LLM
-embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-llm = Together(model="mistralai/Mistral-7B-Instruct-v0.1", max_tokens=300)
+embedding_model = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
+llm = Together(model=LLM_MODEL, max_tokens=LLM_MAX_TOKENS)
 
 # 1. Get embedding of query
 def embed_query(question: str):

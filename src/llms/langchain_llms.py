@@ -1,17 +1,15 @@
-from dotenv import load_dotenv
+
 from langchain_together import Together
 import requests
 import pyttsx3
-
-# Load environment variables
-load_dotenv()
+from src.config import LLM_MODEL, LLM_MAX_TOKENS
 
 # Initialize TTS engine
 engine = pyttsx3.init()
 engine.setProperty("rate", 150)  # Optional: adjust speaking speed
 
 # Initialize Together LLM
-llm = Together(model="mistralai/Mistral-7B-Instruct-v0.1", max_tokens=150)
+llm = Together(model=LLM_MODEL, max_tokens=LLM_MAX_TOKENS)
 
 # Query the LLM with a prompt
 def query_llm(prompt: str) -> str:
